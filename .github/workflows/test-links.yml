@@ -21,7 +21,7 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: |
+          path:send:cd9b9351fd8ec40c8e82df9803e911c30064c6a07d4e156df2880b2a5290e58c
             ${{ github.workspace }}/**/.cache
           key: |
             ${{ runner.os }}-docusaurus-${{ hashFiles('**/yarn.lock') }}
